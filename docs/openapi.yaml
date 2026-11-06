@@ -3,9 +3,9 @@ info:
   title: Task API
   version: 1.0.0
 servers:
-   - url: https://task-api-1-y1gl.onrender.com
+  - url: https://task-api-xcss.onrender.com
     description: Production server
-   - url: http://localhost:3000
+  - url: http://localhost:3000
     description: Local development server
 tags:
   - name: Tasks
@@ -81,8 +81,8 @@ paths:
                     items:
                       type: string
                 example:
-                  errors: Validation failed
-		  details:
+                  error: Validation failed
+      details:
                     - 'Title must be at least 3 characters'
   /health:
     get:
