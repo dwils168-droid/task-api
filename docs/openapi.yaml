@@ -5,7 +5,7 @@ info:
 servers:
    - url: https://task-api-1-y1gl.onrender.com
     description: Production server
-  - url: http://localhost:3000
+   - url: http://localhost:3000
     description: Local development server
 tags:
   - name: Tasks
