@@ -81,7 +81,8 @@ paths:
                     items:
                       type: string
                 example:
-                  errors:
+                  errors: Validation failed
+		  details:
                     - 'Title must be at least 3 characters'
   /health:
     get:
